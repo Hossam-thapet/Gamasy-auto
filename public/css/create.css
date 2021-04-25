@@ -1,0 +1,17 @@
+.create-form {
+    background-color: white;
+    width: 70%;
+    padding: 15px;
+    margin: auto !important;
+}
+.create-page-container {
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 100%;
+}
+.col-md-6,
+.col-md-12 {
+    padding: 0px 10px !important;
+}

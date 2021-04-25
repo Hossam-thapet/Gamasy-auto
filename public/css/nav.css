@@ -1,0 +1,26 @@
+nav.mainnav {
+    background-image: linear-gradient(to right, #fdfffc, #011627);
+}
+
+a {
+    font-family: "Exo 2", sans-serif;
+}
+.navbar-brand.requierd {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.mainnav {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 60px 10px 30px 10px !important ;
+    text-transform: uppercase;
+    color: #a6a6a6 !important;
+}
+.scrolled {
+    padding: 20px 10px 10px 10px !important ;
+}
+a.active {
+    background-color: white;
+    color: black !important;
+}

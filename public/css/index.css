@@ -1,0 +1,67 @@
+.index-page {
+    margin-top: 150px;
+}
+
+
+.data {
+    padding-top: 30px;
+}
+
+h5.description {
+    
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+  
+}
+h5.description.index{
+    height: 190px;
+    text-overflow:inherit; 
+    overflow:hidden;
+}
+/* .show {
+    color: #3490dc;
+    font-weight: bold;
+} */
+
+.loader {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    right: 0;
+    top: 50%;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    0% {
+        right: 0;
+    }
+    25% {
+        margin-right: 25%;
+    }
+    50% {
+        margin-right: 50%;
+    }
+    75% {
+        margin-right: 75%;
+    }
+    100% {
+        margin-right: 100%;
+    }
+}
+.loader-container {
+    z-index: 10000;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.index-page{
+    margin-top:150px ;
+}
